@@ -7,5 +7,6 @@ RUN apk add --update ca-certificates curl && \
 
 RUN mkdir /app && chown nobody:nobody /app
 
-USER nobody
+# USER nobody
+
 WORKDIR /app
