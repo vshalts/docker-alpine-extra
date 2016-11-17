@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM frolvlad/alpine-glibc
 
 MAINTAINER Vadim Shalts <vshalts@gmail.com>
 
